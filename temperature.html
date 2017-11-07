@@ -6,13 +6,13 @@
 		<script type="text/javascript">
 			var temperature;
 			temperature=window.prompt("Enter Celsius temperature");
+			document.writeln("<h1>Celsius temperature is "+temperature+" °C</h1>");
 			temperature=Fahrenheit(temperature);
+			document.writeln("<h1>Fahrenheit temperature is "+temperature+" °F</h1>");
 			function Fahrenheit(Celsius)
 			{
 				return 9/5*Celsius+32;
-			}
-			document.writeln("<h1>Fahrenheit temperature is "+temperature+" °F</h1>");
-								
+			}					
 		</script>
 	</head>
 <body>
